@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 101, 101);
+            padding: 3 px;
+            box-shadow: 1px 1px 1px 1px rgba(68, 65, 65, 0.466);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px 0px 20px;
+        }
+        article {
+            background-color: dimgray;
+            padding: 5px;
+            border-radius: 0px 20px;
+        }
+        article > aside {
+            background-color: rgb(87, 85, 85);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo veniam nam commodi odit iure rem ea, magni molestiae, quis nihil quod ullam eum mollitia. Doloribus tempora quidem fugiat dicta?</p>
+                <aside>
+                    <p>Assunto escrito por Fulano de Tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jaime com ajuda de CursoemVídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
